@@ -53,7 +53,7 @@ if(frameCount%80===0)
   thunder.scale=random(0.3,0.6)
 
 }
-if(thundercount+10===frameCount )
+if(thundercount+10===frameCount && thunder)
 {
   thunder.destroy();
 }
