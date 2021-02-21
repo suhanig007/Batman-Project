@@ -5,6 +5,7 @@ var walkingPics
 var drops = [];
 var maxDrops = 100;
 var thundercount=0;
+var thunder;
 
 
 function preload() {
@@ -52,7 +53,7 @@ if(frameCount%80===0)
   thunder.scale=random(0.3,0.6)
 
 }
-if(thundercount+10===frameCount && thunder)
+if(thundercount+10===frameCount )
 {
   thunder.destroy();
 }
