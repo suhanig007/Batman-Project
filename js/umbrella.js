@@ -4,7 +4,7 @@ class Umbrella{
             
             isStatic: true
         }
-        this.image=loadImage("../images/Walking Frame/walking_1.png")
+        this.image=loadImage("walking_1.png")
         this.r = 50;
         this.body=Bodies.circle(x,y,this.r,options);
         World.add(world,this.body)
